@@ -2,8 +2,12 @@
   "image": "mcr.microsoft.com/devcontainers/python:3",
   "customizations": {
     "vscode": {
+      "settings": {
+        "C_Cpp.updateChannel": "Default",
+        "extensions.ignoreRecommendations": true
+      },
       "extensions": [
-        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
         "ms-python.python",
         "wokwi.wokwi-vscode",
         "platformio.platformio-ide"
